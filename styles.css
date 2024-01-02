@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    width: 100vw;
+    padding: 32px 0;
+    background-image: url(img/bg-chapada-dos-veadeiros.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header nav li {
+    display: inline;
+    padding-left: 16px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.content-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 16vh 0; 
+}
+
+.content-container h2 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 48px;
+    padding-bottom: 24px;
+
+}
+
+.content-container p {
+    color: #FFFFFF;
+    font-weight:lighter;
+    font-size: 24px;
+    line-height: 42px;
+    padding-bottom: 24px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content-container button {
+    padding: 10px 44px;
+    background-color: #F4430B;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    border-radius: 4%;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.content-container button:hover {
+    color: #F4430B;
+    background-color: #FFFFFF;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-reverse {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section img {
+    max-width: 600px;
+    width: 100%;
+}
+
+section .content-section {
+    max-width: 600px;
+    width: 100%;
+    padding: 0 16px;
+}
+
+section h3 {
+    font-weight: bold;
+    font-size: 38px;
+    margin-bottom: 24px;
+}
+
+section hr {
+    margin-bottom: 24px;
+}
+
+section p {
+    line-height: 29px;
+    padding-bottom: 24px;
+}
+
+section button {
+    padding: 12px;
+}
+
+.form-section {
+    padding: 100px 0;
+    width: 100%;
+    background-image: url(img/bg-form.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-form {
+    width: 50%;
+    color: #FFFFFF;
+}
+
+.form-right {
+    width: calc(50% - 16px);
+    margin-left: 16px;
+}
+
+.form-right input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border: none;
+    
+}
+.form-right input:focus {
+    outline: none;
+    
+}
+
+.form-right button {
+    padding: 16px;
+    background-color: #F4430B;
+    color: #FFFFFF;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+footer {
+    padding: 24px 0;
+    text-align: center;
+}
+
+
+
